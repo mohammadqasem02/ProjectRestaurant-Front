@@ -1,0 +1,61 @@
+/* Custom styles for MenuList component */
+.menu-list-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+.menu-list-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.checkbox-container>.MuiCheckbox-root {
+    margin-right: 8px;
+}
+
+.time-options {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.time-options>* {
+    margin: 5px 0;
+}
+
+.submit-button {
+    margin-top: 20px;
+}
+
+.submit-button:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+.submit-button:disabled {
+    background-color: #c3e6cb;
+    cursor: not-allowed;
+}
+
+.error-message {
+    color: #dc3545;
+    font-size: 14px;
+    margin-top: 10px;
+}

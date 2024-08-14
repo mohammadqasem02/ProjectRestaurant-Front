@@ -1,0 +1,100 @@
+/* Custom styles for the Register component */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.register-container {
+    max-width: 1000px;
+    background-image: url('https://example.com/restaurant-background.jpg');
+    /* Replace with your background image URL */
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.2);
+    margin-top: 60px;
+    position: relative;
+}
+
+.header {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.header p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #666;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form input {
+    height: 50px;
+    border: 1px solid #ddd;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+form input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+form .error {
+    color: #e53e3e;
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+form .button {
+    background-color: #007bff;
+    color: #ffffff;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    height: 50px;
+}
+
+form .button:hover {
+    background-color: #0056b3;
+}
+
+.footer {
+    text-align: center;
+    font-size: 18px;
+    padding-top: 10px;
+    color: #666;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: 500;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Add this to your custom CSS file */
+.Toastify__toast--success {
+    background-color: #4caf50;
+    /* Green color for success */
+    color: white;
+}
+
+.Toastify__toast--error {
+    background-color: #f44336;
+    /* Red color for errors */
+    color: white;
+}
